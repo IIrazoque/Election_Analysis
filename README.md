@@ -18,10 +18,12 @@ Tom and Seth both employees as Colorados Board of Elections and we were given th
 Election data shows -
 *There were "368,711" votes casted in the election
 *The candidates were :
-1) Charles Casper Stockham
-2) Diana DeGette 
-3) Raymon Anthony Doane
+- Charles Casper Stockham
+-  Diana DeGette
+-   Raymon Anthony Doane
+-   
 *The candidates results were the following :
+
 1) Charles Casper Stockham recieved 23.0% of the vote and 85,213 number of the votes 
 2) Diana DeGette recieved 73.8% of the vote and 272,892 number of the votes
 3) Raymon Anthony Doane recieved 3.1% of the vote and 11,606 number of the votes
@@ -30,27 +32,30 @@ Election data shows -
 
 ## County Results
 Election data shows -
-* A break down of percentage votes per county and total votes per county
+* A break down of percentage votes per county and total votes per county :
+
 - Jefferson: 10.5% (38,855 total votes)
 - Denver: 82.8% (306,055 total votes)
 - Arapahoe: 6.7% (24,801 total votes)
 
-!{This is an Image] TERMINAL DISPLAY 
+![This is an image](https://github.com/IIrazoque/Election_Analysis/blob/948330858e6ab4be5502c1605afa53b8a8c5d4d1/Resources/terminal_display_screenshot.PNG)
 
 
 ## Election Audit Summary
 Our original code with Tom and Seth was soley candidate statistics. We added similar if, for, and print statements to generate county details. 
 The first task was to create a list and dictionary to for "county analysis". Our second step was to create variables for the "if" statement and "for" loops. We used “not in” membership operators to look though the county names & candidate options list and add the unique value members to the list itself. 
 
-![This is an image] ADDING KEYS TO  LIST 
+![This is an image](https://github.com/IIrazoque/Election_Analysis/blob/948330858e6ab4be5502c1605afa53b8a8c5d4d1/Resources/creating_list_dicts_variables.PNG)
+![This is an image](https://github.com/IIrazoque/Election_Analysis/blob/948330858e6ab4be5502c1605afa53b8a8c5d4d1/Resources/adding%20keys%20to%20list.PNG)
 
 The next step was to create "for" loop to calculate the percentage and total count from the dictionaries we created earlier. 
 
-![This isan image] FORLOOPS
+![This is an image](https://github.com/IIrazoque/Election_Analysis/blob/948330858e6ab4be5502c1605afa53b8a8c5d4d1/Resources/for%20loop%20code.png)
 
 followed by the "if" statement to retrieve the winning candidate and largest county turnout
 
-![This is an image] IF STATEMENT 
+![This is an image](https://github.com/IIrazoque/Election_Analysis/blob/948330858e6ab4be5502c1605afa53b8a8c5d4d1/Resources/if%20statement%20code.png)
+
 Note: We converetd county into a string since county_turnout variable was called out as a string. This was not applicable to the candidate_name since the winning_candidate variable are already strings themselves. 
 
 
